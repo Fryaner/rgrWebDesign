@@ -1,0 +1,80 @@
+main {
+	max-width: 1190px;
+	margin: 0 auto;
+}
+main > h2 {
+	margin: 20px 0;
+	text-align: center;
+}
+.items__cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cards__item {
+	width: 380px;
+	box-shadow: 0px 0px 5px black;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	justify-content: center;
+	position: relative;
+}
+.cards__item > a svg {
+	position: absolute;
+	right: 10px;
+	top: 20px;
+}
+path {
+	transition: .5s;
+}
+.cards__item > a:hover path{
+    fill: red;
+}
+.info__list {
+	list-style: inside;
+	text-align: justify;
+}
+.info__list li{
+	margin-bottom: 5px;
+}
+.info__title h3 {
+	font-style: italic;
+	font-size: 16px;
+	font-weight: 400;
+}
+.info__list {
+	margin: 15px 15px 15px 0;
+}
+.info__buy p:nth-child(1) {
+	color:gray;
+}
+.info__buy p:nth-child(2) {
+	font-size: 24px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.info__buy a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid black;
+	color: black;
+	transition: .5s;
+}
+.info__buy a:hover {
+	background-color: black;
+	color: white;
+}
+.item__img {
+	width: 140px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+.item__img img{
+	width: 140px;
+}
